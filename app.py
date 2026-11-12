@@ -1,6 +1,3 @@
-conda create -n isom3400Python3.13 python=3.13
-conda activate isom3400Python3.13
-pip install streamlit
 
 # business_app.py
 import streamlit as st
