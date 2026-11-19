@@ -67,4 +67,4 @@ if st.button("Submit"):  # hint: st.button("...")
 
     # Challenge: if the sales target is greater than 100000, show an extra message (match the screenshot).
     if sales_target > 100000:  # hint: compare sales_target with 100000
-        st.error("Great! You have set an ambitious target!")  # hint: st.write("...")
+        st.success("Great! You have set an ambitious target!")  # hint: st.write("...")
