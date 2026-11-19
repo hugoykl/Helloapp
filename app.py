@@ -8,9 +8,9 @@ Due: Thursday 19 November 2026 (lecture day)
 Environment: VS Code / local Python
 
 Student information (fill in):
-Name: ______________________________
-Student ID: ________________________
-Email: _____________________________
+Name: Yu Ka Lok
+Student ID: 21175250
+Email: klyuaj@connect.ust.hk
 
 How to use:
 1. Fill in your name / ID / email above.
@@ -67,4 +67,4 @@ if st.button("Submit"):  # hint: st.button("...")
 
     # Challenge: if the sales target is greater than 100000, show an extra message (match the screenshot).
     if sales_target > 100000:  # hint: compare sales_target with 100000
-        st.write("Great! You have set an ambitious target!")  # hint: st.write("...")
+        st.error("Great! You have set an ambitious target!")  # hint: st.write("...")
